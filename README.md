@@ -24,8 +24,8 @@ sass/
 |– _typography.sass      
 |– _variables.sass                          
 |– vendors/              
-|   |– _bootstrap.sass   
-|   |– _jquery-ui.sass   
+|   |– _normalize.sass       
+|   |– _owl-carousel.sass
 |   ...                  
 `– mobile.sass      
 `– desktop.sass  
