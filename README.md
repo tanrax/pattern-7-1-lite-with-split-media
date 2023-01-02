@@ -2,6 +2,8 @@
 
 An extraordinarily neat architecture that any Web Designer can understand at a glance. Structure with the help of SASS and media queries.
 
+## SASS
+
 ``` txt
 sass/                    
 |
@@ -30,6 +32,26 @@ sass/
 `– mobile.sass      
 `– desktop.sass  
 ```
+
+## HTML
+
+```html
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Split media</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+        <link href="css/mobile.css" rel="stylesheet" media="all and (max-width: 600px)">
+        <link href="css/desktop.css" rel="stylesheet" media="all and (min-width: 600px)">
+    </head>
+    <body>
+        <h1>Gravida arcu ac tortor.</h1>
+    </body>
+</html>
+```
+
 
 # Compile SASS.
 
